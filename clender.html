@@ -11,34 +11,33 @@
             display: grid;
             grid-template-columns: repeat(7, 1fr);
             grid-gap: 20px;
-            height: 500px;
+            height: 300px;
+
         }
 
         .date,
         .day {
-            background-color: deepskyblue;
-            font-size: 3em;
-            display: flex;
+            background-color: rosybrown;
+            display: grid;
             justify-content: center;
+            width: 100px;
+            border-radius: 9px;
             align-items: center;
-            border-radius: 4px;
         }
 
-        .other-mothn {
-            background-color: lightgrey;
+        .other-month {
+            background-color: gray;
         }
 
         .day {
-            font-weight: 100;
-            font-size: 1em;
-            height: 20px;
-            margin-top: 20px;
+            background-color: rosybrown;
+            width: 100px;
+
         }
     </style>
 </head>
 
 <body>
-    <h1>Clender</h1>
     <div class="clender">
         <div class="day">S</div>
         <div class="day">M</div>
@@ -47,8 +46,8 @@
         <div class="day">T</div>
         <div class="day">F</div>
         <div class="day">S</div>
-        <div class="date other-mothn">30</div>
-        <div class="date other-mothn">31</div>
+        <div class="date other-month">30</div>
+        <div class="date other-month">31</div>
         <div class="date">1</div>
         <div class="date">2</div>
         <div class="date">3</div>
@@ -79,9 +78,9 @@
         <div class="date">28</div>
         <div class="date">29</div>
         <div class="date">30</div>
-        <div class="date other-mothn">1</div>
-        <div class="date other-mothn">2</div>
-        <div class="date other-mothn">3</div>
+        <div class="date other-month">1</div>
+        <div class="date other-month">2</div>
+        <div class="date other-month">1</div>
 
     </div>
 </body>
